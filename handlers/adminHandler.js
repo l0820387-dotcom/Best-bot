@@ -3,7 +3,7 @@
  */
 const db = require('../lib/db');
 const config = require('../config');
-const { t } = require('../i18n');
+const { t } = require('../lib/i18n'); // <-- CORRECTED PATH HERE
 
 class AdminHandler {
   static verifyAdmin(chatId) {
